@@ -92,6 +92,7 @@ main {
   background-image: url('images/background-team.jpg');
   background-size: cover;
   padding: 20px 0;
+  margin-bottom: 40px;
 }
 
 .personnel {
@@ -106,5 +107,8 @@ main {
 }
 
 /* Footer section */
-
+footer {
+  text-align: left;
+  font-size: 16px;
+}
 
