@@ -18,7 +18,7 @@
 
 html {
   font-family: 'rubik', sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -47,14 +47,16 @@ header {
 }
 
 /* Main section */
-.mission {
-  width: 1200px;
+main {
+  width: 1150px;
   margin: 0 auto;
 }
 
 /* Mission section */
 .mission {
   background-image: url('images/background-banner.jpg');
+  background-position: center;
+  background-size: cover;
   height: 700px;
   display: flex;
   align-items: center;
@@ -63,7 +65,34 @@ header {
 
 .banner {
   width: 100%;
-  color: whitesmoke
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio section */
+.image-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  margin: 20px;  
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Team section */
+
+
+
+
+
+
+
+
+.team img {
+  width: 20px;
+  height: 20px
+}
