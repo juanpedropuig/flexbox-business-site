@@ -47,7 +47,23 @@ header {
 }
 
 /* Main section */
+.mission {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 /* Mission section */
+.mission {
+  background-image: url('images/background-banner.jpg');
+  height: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
 
+.banner {
+  width: 100%;
+  color: whitesmoke
+}
 
+/* Portfolio section */
