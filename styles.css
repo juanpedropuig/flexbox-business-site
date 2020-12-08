@@ -69,6 +69,10 @@ main {
 }
 
 /* Portfolio section */
+.portfolio {
+  margin-bottom: 40px;
+}
+
 .image-container {
   display: inline-flex;
   flex-wrap: wrap;
@@ -84,15 +88,23 @@ main {
 }
 
 /* Team section */
-
-
-
-
-
-
-
-
-.team img {
-  width: 20px;
-  height: 20px
+.team {
+  background-image: url('images/background-team.jpg');
+  background-size: cover;
+  padding: 20px 0;
 }
+
+.personnel {
+  display: flex;
+  justify-content: center;
+  align-items: ;
+  color: white
+}
+
+.personnel img {
+  width: 50%;
+}
+
+/* Footer section */
+
+
