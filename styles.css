@@ -98,6 +98,7 @@ main {
 .personnel {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: ;
   color: white
 }
@@ -110,5 +111,11 @@ main {
 footer {
   text-align: left;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    width: auto;
+  }
 }
 
